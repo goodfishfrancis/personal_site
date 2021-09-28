@@ -1,4 +1,5 @@
 body{
+    margin: 0px;
     background-color: #DFEEEA;
 }
 hr {
@@ -8,5 +9,12 @@ hr {
     width: 15%;
 }
 h1, h3 {
+    margin-top: 0px;
     color: #2F5D62;
+}
+
+
+/******ID Selectors*****/
+.header{
+    background-color: white;
 }
