@@ -14,7 +14,21 @@ h1, h3 {
 }
 
 
-/******ID Selectors*****/
+/******Class Selectors*****/
 .header{
     background-color: white;
 }
+
+
+.middle-container{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.bottom-container{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+
