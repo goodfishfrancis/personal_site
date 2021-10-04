@@ -3,115 +3,75 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="This is a personal site for Alexander Solinger, BA Computer Science.">
-    <link rel="stylesheet" href="css/styles.css">
     <title>Alexander Solinger</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="favicons/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Caveat|Courgette|Kalam|Pacifico|Quattrocento+Sans|Satisfy&display=swap" rel="stylesheet">
+
+
 </head>
 
 <body>
-    <table>
-        <tr>
-            <td><img src="images/IMG_5701 2.jpg" alt="Alexander Solinger"></td>
-            <td>
-                <table>
-                    <tr>
-                        <td>
-                            <h1>Alexander Solinger</h1>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p><em>B.A. Computer Science, <strong><a href="https://www.stedwards.edu/">St Edwards
-                                            University</a></strong></em></p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            <p><em>Full-Stack Software Engineer at <strong>Kaiser Permanente</strong></em></p>
-                        </td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
+    <div class="top-container">
+        <img class="top-cloud" src="images/cloud.png" alt="cloud-img">
+        <h1>Hello. I'm Alexander.</h1>
+        <h2 class="intro">I'm a programmer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img">
+        
+    </div>
+    <div class="middle-container">
+        <div class="profile">
+            <img src="images/IMG_5701 2.jpg" class="profile-pic" alt="alexander-solinger">
+            <h2>Welcome to my site.</h2>
+            <p>
+                I am an early-career computer scientist currently working as a full-stack developer.
+                I enjoy making art and going on hikes with my wife and doggy. 
+            </p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <div class="skill-row">
+                <img class="skill-code" src="images/computer.png" alt="code-image">
+                <h3>Software Development</h3>
+                <p class="skill-code-description">
+                    I graduated with my Bachelor's Degree in Computer Science in May 2019.
+                    I am currently working as a Full-Stack Software Engineer for Kaiser Permanente. 
+                    My current goals include broadening my knowledge of web development and 
+                    working towards becoming a full-time front-end developer. 
+                </p>
+            </div>
+            <div class="skill-row">
+                <img class="skill-art" src="images/brush.png" alt="art-image">
+                <h3>Art</h3>
+                <p class="skill-art-description">
+                    In my free time, I love to work on my art. My favorite thing to do is to make
+                    hand-drawn stickers for my friends and audience. 
+                </p>
+            </div>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Questions or Comments?</h2>
+            <h3>Get in touch</h3>
+            <p>
+                If you have any questions, comments or would like to know more, click
+                the CONTACT ME link below...I'm happy to chat!
+            </p>
+            <a class="btn" href="mailto:alexandersolinger@me.com">CONTACT ME</a>
+        </div>
+    </div>
+    <div class="bottom-container">
+        <a class="footer-link" href="https://www.linkedin.com/in/alexander-solinger-7aa343214/" target="_blank">LinkedIn</a>
+        <a class="footer-link" href="https://github.com/goodfishfrancis">GitHub</a>
+        <a class="footer-link" href="https://angel.co/u/alexander-solinger-1">Angel List</a>
+        <div>
+            <p>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></p>
+        </div>
+        <p class="copyright">© 2021 Alexander Solinger.</p>
+    </div>
 
-    <hr size=2>
-    <h3>Skills</h3>
-    <table border=1>
-        <tr>
-            <td>
-                <table>
-                    <tr>
-                        <td>Java</td>
-                        <td>☆☆☆☆☆</td>
-                    </tr>
-                    <tr>
-                        <td>HTML</td>
-                        <td>☆☆☆</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>JavaScript</td>
-                        <td>☆☆☆</td>
-                    </tr>
-                    <tr>
-                        <td>CSS</td>
-                        <td>☆☆</td>
-                    </tr>
-                </table>
-            </td>
-            <td>
-                <table>
-                    <tr>
-                        <td>Spring MVC & Hibernate</td>
-                        <td>☆☆☆☆</td>
-                    </tr>
-                    <tr>
-                        <td>Graffiti Lettering</td>
-                        <td>☆☆☆☆☆</td>
-                    </tr>
-                </table>
-            </td>
-        </tr>
-    </table>
-    <!-- <ul>
-        <li>Java</li>
-        <li>HTML</li>
-        <li>JavaScript</li>
-        <li>CSS</li>
-        <li>Spring MVC & Hibernate</li>
-        <li>Graffiti Lettering</li>
-    </ul> -->
-    <br>
-    <hr size=3>
-    <h3>Work Experience</h3>
-    <table border="1">
-        <thead>
-            <tr>
-                <th>Date</th>
-                <th>Position</th>
-                <th>Company</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2019 - Present</td>
-                <td>Full-stack Software Developer</td>
-                <td>Kiaser Permanente</td>
-            </tr>
-        </tbody>
-    </table>
-    <hr size="3">
-    <h3><a href="hobbies.html">Hobbies</a></h3>
-    <h3><a href="https://angel.co/u/alexander-solinger-1" target="_blank" rel="noopener noreferrer">My AngelList Profile</a></h3>
-    <h3><a href="https://github.com/goodfishfrancis" target="_blank" rel="noopener noreferrer">My GitHub Profile</a>
-    </h3>
-    <h3><a href="contact-me.html">Contact Info</a></h3>
 </body>
 
 </html>
